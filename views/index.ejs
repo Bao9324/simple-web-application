@@ -1,0 +1,35 @@
+<%- include header %>
+  <body>
+    <div class="container">
+        <div class="jumbotron">
+          <div class="row">
+          <% images.forEach(function(image) { %>
+            <div class="col-md-3">
+              <div class="panel panel-default">
+              <img class="center-block" src="images/<%= image.path %>" width=150 height=150 />
+              <p class="text-center"> <%= image.caption %> </p>
+            </div>
+            </div>
+          <% }); %>
+          </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6">
+          <form action="/">
+            <input type="hidden" name="cursor" value="<%= cursor %>" />
+            <button class="btn btn-sm btn-warning pull-left" name="prev" type="submit">BACK</button>
+          </form>
+        </div>
+        <div class="col-md-6">
+          <form action="/">
+            <input type="hidden" name="cursor" value="<%= cursor %>" />
+            <button class="btn btn-sm btn-warning pull-right" name="next" type="submit">NEXT</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+<%- include footer %>

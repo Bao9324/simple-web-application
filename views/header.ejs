@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<title>Baogram</title>
+<link rel="stylesheet" href="/stylesheets/style.css">
+</head>
+<body>
+
+<header>
+<h1><%= title %></h1>
+</header>
+
+<nav>
+<span><a title="Baogram" href="/">home</a></span>
+
+<% if (user) { %>
+  <span><a title="Post" href="/post">post</a></span>
+  <span><a title="Delete" href="/delete">delete</a></span>
+  <span><a title="Sign out" href="/logout">sign out</a></span>
+<% } else { %>
+  <span><a title="Sign in" href="/login">sign in</a></span>
+  <span><a title="Sign up" href="/reg">sign up</a></span>
+<% } %>
+</nav>
+
+<article>
+
+<% if (success) { %>
+  <div><%= success %></div>
+<% } %>
+<% if (error) { %>
+  <div><%= error %> </div>
+<% } %>

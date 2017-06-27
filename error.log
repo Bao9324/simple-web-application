@@ -1,0 +1,432 @@
+[Mon Sep 19 2016 14:52:09 GMT-0400 (东部夏令时)] /reg
+Error: db object already connecting, open cannot be called multiple times
+    at Db.open (C:\Users\保龄球\baogram\node_modules\mongodb\lib\mongodb\db.js:258:11)
+    at Function.User.get (C:\Users\保龄球\baogram\models\user.js:49:11)
+    at C:\Users\保龄球\baogram\routes\index.js:55:10
+    at Layer.handle [as handle_request] (C:\Users\保龄球\baogram\node_modules\express\lib\router\layer.js:82:5)
+    at next (C:\Users\保龄球\baogram\node_modules\express\lib\router\route.js:100:13)
+    at Route.dispatch (C:\Users\保龄球\baogram\node_modules\express\lib\router\route.js:81:3)
+    at Layer.handle [as handle_request] (C:\Users\保龄球\baogram\node_modules\express\lib\router\layer.js:82:5)
+    at C:\Users\保龄球\baogram\node_modules\express\lib\router\index.js:235:24
+    at Function.proto.process_params (C:\Users\保龄球\baogram\node_modules\express\lib\router\index.js:313:12)
+    at C:\Users\保龄球\baogram\node_modules\express\lib\router\index.js:229:12
+[Tue Sep 20 2016 03:14:34 GMT-0400 (东部夏令时)] /myphotos
+Error: Failed to lookup view "404" in views directory "C:\Users\保龄球\baogram\views"
+    at EventEmitter.app.render (C:\Users\保龄球\baogram\node_modules\express\lib\application.js:519:17)
+    at ServerResponse.res.render (C:\Users\保龄球\baogram\node_modules\express\lib\response.js:904:7)
+    at C:\Users\保龄球\baogram\routes\index.js:333:9
+    at Layer.handle [as handle_request] (C:\Users\保龄球\baogram\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (C:\Users\保龄球\baogram\node_modules\express\lib\router\index.js:271:13)
+    at C:\Users\保龄球\baogram\node_modules\express\lib\router\index.js:238:9
+    at Function.proto.process_params (C:\Users\保龄球\baogram\node_modules\express\lib\router\index.js:313:12)
+    at C:\Users\保龄球\baogram\node_modules\express\lib\router\index.js:229:12
+    at Function.match_layer (C:\Users\保龄球\baogram\node_modules\express\lib\router\index.js:296:3)
+    at next (C:\Users\保龄球\baogram\node_modules\express\lib\router\index.js:190:10)
+[Tue Sep 20 2016 04:26:32 GMT-0400 (东部夏令时)] /u/xin/2016-9-20/3
+Error: ENOENT: no such file or directory, open 'C:\Users\保龄球\baogram\views\comment.ejs'
+    at Error (native)
+    at Object.fs.openSync (fs.js:549:18)
+    at fs.readFileSync (fs.js:397:15)
+    at Object.exports.parse (C:\Users\保龄球\baogram\node_modules\ejs\lib\ejs.js:164:19)
+    at exports.compile (C:\Users\保龄球\baogram\node_modules\ejs\lib\ejs.js:229:15)
+    at Object.exports.render (C:\Users\保龄球\baogram\node_modules\ejs\lib\ejs.js:289:10)
+    at View.exports.renderFile [as engine] (C:\Users\保龄球\baogram\node_modules\ejs\lib\ejs.js:323:20)
+    at View.render (C:\Users\保龄球\baogram\node_modules\express\lib\view.js:93:8)
+    at EventEmitter.app.render (C:\Users\保龄球\baogram\node_modules\express\lib\application.js:530:10)
+    at ServerResponse.res.render (C:\Users\保龄球\baogram\node_modules\express\lib\response.js:904:7)
+[Tue Sep 20 2016 04:26:38 GMT-0400 (东部夏令时)] /u/xin/2016-9-20/3
+Error: ENOENT: no such file or directory, open 'C:\Users\保龄球\baogram\views\comment.ejs'
+    at Error (native)
+    at Object.fs.openSync (fs.js:549:18)
+    at fs.readFileSync (fs.js:397:15)
+    at Object.exports.parse (C:\Users\保龄球\baogram\node_modules\ejs\lib\ejs.js:164:19)
+    at exports.compile (C:\Users\保龄球\baogram\node_modules\ejs\lib\ejs.js:229:15)
+    at Object.exports.render (C:\Users\保龄球\baogram\node_modules\ejs\lib\ejs.js:289:10)
+    at View.exports.renderFile [as engine] (C:\Users\保龄球\baogram\node_modules\ejs\lib\ejs.js:323:20)
+    at View.render (C:\Users\保龄球\baogram\node_modules\express\lib\view.js:93:8)
+    at EventEmitter.app.render (C:\Users\保龄球\baogram\node_modules\express\lib\application.js:530:10)
+    at ServerResponse.res.render (C:\Users\保龄球\baogram\node_modules\express\lib\response.js:904:7)
+[Tue Sep 20 2016 04:26:58 GMT-0400 (东部夏令时)] /u/xin/2016-9-20/3
+Error: ENOENT: no such file or directory, open 'C:\Users\保龄球\baogram\views\comment.ejs'
+    at Error (native)
+    at Object.fs.openSync (fs.js:549:18)
+    at fs.readFileSync (fs.js:397:15)
+    at Object.exports.parse (C:\Users\保龄球\baogram\node_modules\ejs\lib\ejs.js:164:19)
+    at exports.compile (C:\Users\保龄球\baogram\node_modules\ejs\lib\ejs.js:229:15)
+    at Object.exports.render (C:\Users\保龄球\baogram\node_modules\ejs\lib\ejs.js:289:10)
+    at View.exports.renderFile [as engine] (C:\Users\保龄球\baogram\node_modules\ejs\lib\ejs.js:323:20)
+    at View.render (C:\Users\保龄球\baogram\node_modules\express\lib\view.js:93:8)
+    at EventEmitter.app.render (C:\Users\保龄球\baogram\node_modules\express\lib\application.js:530:10)
+    at ServerResponse.res.render (C:\Users\保龄球\baogram\node_modules\express\lib\response.js:904:7)
+[Tue Sep 20 2016 04:27:07 GMT-0400 (东部夏令时)] /u/xin/2016-9-20/3
+Error: ENOENT: no such file or directory, open 'C:\Users\保龄球\baogram\views\comment.ejs'
+    at Error (native)
+    at Object.fs.openSync (fs.js:549:18)
+    at fs.readFileSync (fs.js:397:15)
+    at Object.exports.parse (C:\Users\保龄球\baogram\node_modules\ejs\lib\ejs.js:164:19)
+    at exports.compile (C:\Users\保龄球\baogram\node_modules\ejs\lib\ejs.js:229:15)
+    at Object.exports.render (C:\Users\保龄球\baogram\node_modules\ejs\lib\ejs.js:289:10)
+    at View.exports.renderFile [as engine] (C:\Users\保龄球\baogram\node_modules\ejs\lib\ejs.js:323:20)
+    at View.render (C:\Users\保龄球\baogram\node_modules\express\lib\view.js:93:8)
+    at EventEmitter.app.render (C:\Users\保龄球\baogram\node_modules\express\lib\application.js:530:10)
+    at ServerResponse.res.render (C:\Users\保龄球\baogram\node_modules\express\lib\response.js:904:7)
+[Tue Sep 20 2016 04:27:11 GMT-0400 (东部夏令时)] /u/xin/2016-9-20/3
+Error: ENOENT: no such file or directory, open 'C:\Users\保龄球\baogram\views\comment.ejs'
+    at Error (native)
+    at Object.fs.openSync (fs.js:549:18)
+    at fs.readFileSync (fs.js:397:15)
+    at Object.exports.parse (C:\Users\保龄球\baogram\node_modules\ejs\lib\ejs.js:164:19)
+    at exports.compile (C:\Users\保龄球\baogram\node_modules\ejs\lib\ejs.js:229:15)
+    at Object.exports.render (C:\Users\保龄球\baogram\node_modules\ejs\lib\ejs.js:289:10)
+    at View.exports.renderFile [as engine] (C:\Users\保龄球\baogram\node_modules\ejs\lib\ejs.js:323:20)
+    at View.render (C:\Users\保龄球\baogram\node_modules\express\lib\view.js:93:8)
+    at EventEmitter.app.render (C:\Users\保龄球\baogram\node_modules\express\lib\application.js:530:10)
+    at ServerResponse.res.render (C:\Users\保龄球\baogram\node_modules\express\lib\response.js:904:7)
+[Tue Sep 20 2016 04:31:24 GMT-0400 (东部夏令时)] /upload
+Error: Failed to lookup view "upload" in views directory "C:\Users\保龄球\baogram\views"
+    at EventEmitter.app.render (C:\Users\保龄球\baogram\node_modules\express\lib\application.js:519:17)
+    at ServerResponse.res.render (C:\Users\保龄球\baogram\node_modules\express\lib\response.js:904:7)
+    at C:\Users\保龄球\baogram\routes\index.js:139:9
+    at Layer.handle [as handle_request] (C:\Users\保龄球\baogram\node_modules\express\lib\router\layer.js:82:5)
+    at next (C:\Users\保龄球\baogram\node_modules\express\lib\router\route.js:100:13)
+    at Route.dispatch (C:\Users\保龄球\baogram\node_modules\express\lib\router\route.js:81:3)
+    at Layer.handle [as handle_request] (C:\Users\保龄球\baogram\node_modules\express\lib\router\layer.js:82:5)
+    at C:\Users\保龄球\baogram\node_modules\express\lib\router\index.js:235:24
+    at Function.proto.process_params (C:\Users\保龄球\baogram\node_modules\express\lib\router\index.js:313:12)
+    at C:\Users\保龄球\baogram\node_modules\express\lib\router\index.js:229:12
+[Tue Sep 20 2016 04:34:11 GMT-0400 (东部夏令时)] /login
+Error: Error setting TTL index on collection : sessions
+    at C:\Users\保龄球\baogram\node_modules\connect-mongo\lib\connect-mongo.js:161:23
+    at C:\Users\保龄球\baogram\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\db.js:1404:28
+    at C:\Users\保龄球\baogram\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\db.js:1542:30
+    at C:\Users\保龄球\baogram\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\cursor.js:159:22
+    at commandHandler (C:\Users\保龄球\baogram\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\cursor.js:678:48)
+    at C:\Users\保龄球\baogram\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\db.js:1806:9
+    at __executeQueryCommand (C:\Users\保龄球\baogram\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\db.js:1636:44)
+    at Db._executeQueryCommand (C:\Users\保龄球\baogram\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\db.js:1805:7)
+    at Cursor.nextObject (C:\Users\保龄球\baogram\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\cursor.js:729:13)
+    at Cursor.toArray (C:\Users\保龄球\baogram\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\cursor.js:158:10)
+[Tue Sep 20 2016 06:23:18 GMT-0400 (东部夏令时)] /tags/tag
+Error: Failed to lookup view "tag" in views directory "C:\Users\保龄球\baogram\views"
+    at EventEmitter.app.render (C:\Users\保龄球\baogram\node_modules\express\lib\application.js:519:17)
+    at ServerResponse.res.render (C:\Users\保龄球\baogram\node_modules\express\lib\response.js:904:7)
+    at C:\Users\保龄球\baogram\routes\index.js:175:11
+    at C:\Users\保龄球\baogram\models\post.js:363:9
+    at C:\Users\保龄球\baogram\node_modules\mongodb\lib\mongodb\cursor.js:172:16
+    at commandHandler (C:\Users\保龄球\baogram\node_modules\mongodb\lib\mongodb\cursor.js:720:16)
+    at C:\Users\保龄球\baogram\node_modules\mongodb\lib\mongodb\db.js:1912:9
+    at Server.Base._callHandler (C:\Users\保龄球\baogram\node_modules\mongodb\lib\mongodb\connection\base.js:448:41)
+    at C:\Users\保龄球\baogram\node_modules\mongodb\lib\mongodb\connection\server.js:481:18
+    at MongoReply.parseBody (C:\Users\保龄球\baogram\node_modules\mongodb\lib\mongodb\responses\mongo_reply.js:68:5)
+[Tue Sep 20 2016 06:23:26 GMT-0400 (东部夏令时)] /u/new/2016-9-20/biaoti
+Error: Failed to lookup view "article" in views directory "C:\Users\保龄球\baogram\views"
+    at EventEmitter.app.render (C:\Users\保龄球\baogram\node_modules\express\lib\application.js:519:17)
+    at ServerResponse.res.render (C:\Users\保龄球\baogram\node_modules\express\lib\response.js:904:7)
+    at C:\Users\保龄球\baogram\routes\index.js:239:11
+    at C:\Users\保龄球\baogram\models\post.js:146:11
+    at C:\Users\保龄球\baogram\node_modules\mongodb\lib\mongodb\collection\query.js:164:5
+    at Cursor.nextObject (C:\Users\保龄球\baogram\node_modules\mongodb\lib\mongodb\cursor.js:753:5)
+    at commandHandler (C:\Users\保龄球\baogram\node_modules\mongodb\lib\mongodb\cursor.js:727:14)
+    at C:\Users\保龄球\baogram\node_modules\mongodb\lib\mongodb\db.js:1912:9
+    at Server.Base._callHandler (C:\Users\保龄球\baogram\node_modules\mongodb\lib\mongodb\connection\base.js:448:41)
+    at C:\Users\保龄球\baogram\node_modules\mongodb\lib\mongodb\connection\server.js:481:18
+[Tue Sep 20 2016 06:23:30 GMT-0400 (东部夏令时)] /tags/tag
+Error: Failed to lookup view "tag" in views directory "C:\Users\保龄球\baogram\views"
+    at EventEmitter.app.render (C:\Users\保龄球\baogram\node_modules\express\lib\application.js:519:17)
+    at ServerResponse.res.render (C:\Users\保龄球\baogram\node_modules\express\lib\response.js:904:7)
+    at C:\Users\保龄球\baogram\routes\index.js:175:11
+    at C:\Users\保龄球\baogram\models\post.js:363:9
+    at C:\Users\保龄球\baogram\node_modules\mongodb\lib\mongodb\cursor.js:172:16
+    at commandHandler (C:\Users\保龄球\baogram\node_modules\mongodb\lib\mongodb\cursor.js:720:16)
+    at C:\Users\保龄球\baogram\node_modules\mongodb\lib\mongodb\db.js:1912:9
+    at Server.Base._callHandler (C:\Users\保龄球\baogram\node_modules\mongodb\lib\mongodb\connection\base.js:448:41)
+    at C:\Users\保龄球\baogram\node_modules\mongodb\lib\mongodb\connection\server.js:481:18
+    at MongoReply.parseBody (C:\Users\保龄球\baogram\node_modules\mongodb\lib\mongodb\responses\mongo_reply.js:68:5)
+[Tue Sep 20 2016 06:29:45 GMT-0400 (东部夏令时)] /tags/http://www.gravatar.com/avatar/530316ee22c2df189130b58aedadc728?s=48
+Error: Failed to lookup view "404" in views directory "C:\Users\保龄球\baogram\views"
+    at EventEmitter.app.render (C:\Users\保龄球\baogram\node_modules\express\lib\application.js:519:17)
+    at ServerResponse.res.render (C:\Users\保龄球\baogram\node_modules\express\lib\response.js:904:7)
+    at C:\Users\保龄球\baogram\routes\index.js:317:9
+    at Layer.handle [as handle_request] (C:\Users\保龄球\baogram\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (C:\Users\保龄球\baogram\node_modules\express\lib\router\index.js:271:13)
+    at C:\Users\保龄球\baogram\node_modules\express\lib\router\index.js:238:9
+    at Function.proto.process_params (C:\Users\保龄球\baogram\node_modules\express\lib\router\index.js:313:12)
+    at C:\Users\保龄球\baogram\node_modules\express\lib\router\index.js:229:12
+    at Function.match_layer (C:\Users\保龄球\baogram\node_modules\express\lib\router\index.js:296:3)
+    at next (C:\Users\保龄球\baogram\node_modules\express\lib\router\index.js:190:10)
+[Tue Sep 20 2016 13:03:32 GMT-0400 (东部夏令时)] /u/new/2016-9-20/biaoti
+Error: Failed to lookup view "404" in views directory "C:\Users\保龄球\baogram\views"
+    at EventEmitter.app.render (C:\Users\保龄球\baogram\node_modules\express\lib\application.js:519:17)
+    at ServerResponse.res.render (C:\Users\保龄球\baogram\node_modules\express\lib\response.js:904:7)
+    at C:\Users\保龄球\baogram\routes\index.js:261:9
+    at Layer.handle [as handle_request] (C:\Users\保龄球\baogram\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (C:\Users\保龄球\baogram\node_modules\express\lib\router\index.js:271:13)
+    at C:\Users\保龄球\baogram\node_modules\express\lib\router\index.js:238:9
+    at Function.proto.process_params (C:\Users\保龄球\baogram\node_modules\express\lib\router\index.js:313:12)
+    at C:\Users\保龄球\baogram\node_modules\express\lib\router\index.js:229:12
+    at Function.match_layer (C:\Users\保龄球\baogram\node_modules\express\lib\router\index.js:296:3)
+    at next (C:\Users\保龄球\baogram\node_modules\express\lib\router\index.js:190:10)
+[Tue Sep 20 2016 13:14:56 GMT-0400 (东部夏令时)] /tags/tag1
+Error: Failed to lookup view "tag" in views directory "C:\Users\保龄球\baogram\views"
+    at EventEmitter.app.render (C:\Users\保龄球\baogram\node_modules\express\lib\application.js:519:17)
+    at ServerResponse.res.render (C:\Users\保龄球\baogram\node_modules\express\lib\response.js:904:7)
+    at C:\Users\保龄球\baogram\routes\index.js:175:11
+    at C:\Users\保龄球\baogram\models\post.js:247:9
+    at C:\Users\保龄球\baogram\node_modules\mongodb\lib\mongodb\cursor.js:172:16
+    at commandHandler (C:\Users\保龄球\baogram\node_modules\mongodb\lib\mongodb\cursor.js:720:16)
+    at C:\Users\保龄球\baogram\node_modules\mongodb\lib\mongodb\db.js:1912:9
+    at Server.Base._callHandler (C:\Users\保龄球\baogram\node_modules\mongodb\lib\mongodb\connection\base.js:448:41)
+    at C:\Users\保龄球\baogram\node_modules\mongodb\lib\mongodb\connection\server.js:481:18
+    at MongoReply.parseBody (C:\Users\保龄球\baogram\node_modules\mongodb\lib\mongodb\responses\mongo_reply.js:68:5)
+[Tue Sep 20 2016 13:27:29 GMT-0400 (东部夏令时)] /tags
+TypeError: C:\Users\保龄球\baogram\views\tags.ejs:5
+    3| <% var lastYear = 0 %>
+    4| <% posts.forEach(function (post, index) { %>
+ >> 5|   <% if (lastYear != post.time.year) { %>
+    6|     <li><h3><%= post.time.year %></h3></li>
+    7|   <% lastYear=post.time.year } %>
+    8|   <li><time><%= post.time.day %></time></li>
+
+Cannot read property 'year' of undefined
+    at eval (eval at <anonymous> (C:\Users\保龄球\baogram\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:32:224)
+    at Array.forEach (native)
+    at eval (eval at <anonymous> (C:\Users\保龄球\baogram\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:32:129)
+    at eval (eval at <anonymous> (C:\Users\保龄球\baogram\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:34:35)
+    at C:\Users\保龄球\baogram\node_modules\ejs\lib\ejs.js:255:15
+    at Object.exports.render (C:\Users\保龄球\baogram\node_modules\ejs\lib\ejs.js:293:13)
+    at View.exports.renderFile [as engine] (C:\Users\保龄球\baogram\node_modules\ejs\lib\ejs.js:323:20)
+    at View.render (C:\Users\保龄球\baogram\node_modules\express\lib\view.js:93:8)
+    at EventEmitter.app.render (C:\Users\保龄球\baogram\node_modules\express\lib\application.js:530:10)
+    at ServerResponse.res.render (C:\Users\保龄球\baogram\node_modules\express\lib\response.js:904:7)
+[Tue Sep 20 2016 13:27:38 GMT-0400 (东部夏令时)] /tags
+TypeError: C:\Users\保龄球\baogram\views\tags.ejs:5
+    3| <% var lastYear = 0 %>
+    4| <% posts.forEach(function (post, index) { %>
+ >> 5|   <% if (lastYear != post.time.year) { %>
+    6|     <li><h3><%= post.time.year %></h3></li>
+    7|   <% lastYear=post.time.year } %>
+    8|   <li><time><%= post.time.day %></time></li>
+
+Cannot read property 'year' of undefined
+    at eval (eval at <anonymous> (C:\Users\保龄球\baogram\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:32:224)
+    at Array.forEach (native)
+    at eval (eval at <anonymous> (C:\Users\保龄球\baogram\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:32:129)
+    at eval (eval at <anonymous> (C:\Users\保龄球\baogram\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:34:35)
+    at C:\Users\保龄球\baogram\node_modules\ejs\lib\ejs.js:255:15
+    at Object.exports.render (C:\Users\保龄球\baogram\node_modules\ejs\lib\ejs.js:293:13)
+    at View.exports.renderFile [as engine] (C:\Users\保龄球\baogram\node_modules\ejs\lib\ejs.js:323:20)
+    at View.render (C:\Users\保龄球\baogram\node_modules\express\lib\view.js:93:8)
+    at EventEmitter.app.render (C:\Users\保龄球\baogram\node_modules\express\lib\application.js:530:10)
+    at ServerResponse.res.render (C:\Users\保龄球\baogram\node_modules\express\lib\response.js:904:7)
+[Tue Sep 20 2016 13:57:04 GMT-0400 (东部夏令时)] /null
+Error: Failed to lookup view "404" in views directory "C:\Users\保龄球\baogram\views"
+    at EventEmitter.app.render (C:\Users\保龄球\baogram\node_modules\express\lib\application.js:519:17)
+    at ServerResponse.res.render (C:\Users\保龄球\baogram\node_modules\express\lib\response.js:904:7)
+    at C:\Users\保龄球\baogram\routes\index.js:245:9
+    at Layer.handle [as handle_request] (C:\Users\保龄球\baogram\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (C:\Users\保龄球\baogram\node_modules\express\lib\router\index.js:271:13)
+    at C:\Users\保龄球\baogram\node_modules\express\lib\router\index.js:238:9
+    at Function.proto.process_params (C:\Users\保龄球\baogram\node_modules\express\lib\router\index.js:313:12)
+    at C:\Users\保龄球\baogram\node_modules\express\lib\router\index.js:229:12
+    at Function.match_layer (C:\Users\保龄球\baogram\node_modules\express\lib\router\index.js:296:3)
+    at next (C:\Users\保龄球\baogram\node_modules\express\lib\router\index.js:190:10)
+[Tue Sep 20 2016 13:57:16 GMT-0400 (东部夏令时)] /null
+Error: Failed to lookup view "404" in views directory "C:\Users\保龄球\baogram\views"
+    at EventEmitter.app.render (C:\Users\保龄球\baogram\node_modules\express\lib\application.js:519:17)
+    at ServerResponse.res.render (C:\Users\保龄球\baogram\node_modules\express\lib\response.js:904:7)
+    at C:\Users\保龄球\baogram\routes\index.js:245:9
+    at Layer.handle [as handle_request] (C:\Users\保龄球\baogram\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (C:\Users\保龄球\baogram\node_modules\express\lib\router\index.js:271:13)
+    at C:\Users\保龄球\baogram\node_modules\express\lib\router\index.js:238:9
+    at Function.proto.process_params (C:\Users\保龄球\baogram\node_modules\express\lib\router\index.js:313:12)
+    at C:\Users\保龄球\baogram\node_modules\express\lib\router\index.js:229:12
+    at Function.match_layer (C:\Users\保龄球\baogram\node_modules\express\lib\router\index.js:296:3)
+    at next (C:\Users\保龄球\baogram\node_modules\express\lib\router\index.js:190:10)
+[Fri Sep 23 2016 02:54:26 GMT-0400 (东部夏令时)] /
+Error: Error setting TTL index on collection : sessions
+    at C:\baogram\node_modules\connect-mongo\lib\connect-mongo.js:161:23
+    at C:\baogram\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\db.js:1404:28
+    at C:\baogram\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\db.js:1542:30
+    at C:\baogram\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\cursor.js:159:22
+    at commandHandler (C:\baogram\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\cursor.js:678:48)
+    at Db._executeQueryCommand (C:\baogram\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\db.js:1802:12)
+    at Cursor.nextObject (C:\baogram\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\cursor.js:729:13)
+    at Cursor.toArray (C:\baogram\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\cursor.js:158:10)
+    at Cursor.toArray (C:\baogram\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\scope.js:10:20)
+    at C:\baogram\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\db.js:1541:65
+[Fri Sep 23 2016 02:56:23 GMT-0400 (东部夏令时)] /null
+Error: Failed to lookup view "404" in views directory "C:\baogram\views"
+    at EventEmitter.app.render (C:\baogram\node_modules\express\lib\application.js:519:17)
+    at ServerResponse.res.render (C:\baogram\node_modules\express\lib\response.js:904:7)
+    at C:\baogram\routes\index.js:245:9
+    at Layer.handle [as handle_request] (C:\baogram\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (C:\baogram\node_modules\express\lib\router\index.js:271:13)
+    at C:\baogram\node_modules\express\lib\router\index.js:238:9
+    at Function.proto.process_params (C:\baogram\node_modules\express\lib\router\index.js:313:12)
+    at C:\baogram\node_modules\express\lib\router\index.js:229:12
+    at Function.match_layer (C:\baogram\node_modules\express\lib\router\index.js:296:3)
+    at next (C:\baogram\node_modules\express\lib\router\index.js:190:10)
+[Fri Sep 23 2016 02:56:48 GMT-0400 (东部夏令时)] /null
+Error: Failed to lookup view "404" in views directory "C:\baogram\views"
+    at EventEmitter.app.render (C:\baogram\node_modules\express\lib\application.js:519:17)
+    at ServerResponse.res.render (C:\baogram\node_modules\express\lib\response.js:904:7)
+    at C:\baogram\routes\index.js:245:9
+    at Layer.handle [as handle_request] (C:\baogram\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (C:\baogram\node_modules\express\lib\router\index.js:271:13)
+    at C:\baogram\node_modules\express\lib\router\index.js:238:9
+    at Function.proto.process_params (C:\baogram\node_modules\express\lib\router\index.js:313:12)
+    at C:\baogram\node_modules\express\lib\router\index.js:229:12
+    at Function.match_layer (C:\baogram\node_modules\express\lib\router\index.js:296:3)
+    at next (C:\baogram\node_modules\express\lib\router\index.js:190:10)
+[Fri Sep 23 2016 02:56:53 GMT-0400 (东部夏令时)] /null
+Error: Failed to lookup view "404" in views directory "C:\baogram\views"
+    at EventEmitter.app.render (C:\baogram\node_modules\express\lib\application.js:519:17)
+    at ServerResponse.res.render (C:\baogram\node_modules\express\lib\response.js:904:7)
+    at C:\baogram\routes\index.js:245:9
+    at Layer.handle [as handle_request] (C:\baogram\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (C:\baogram\node_modules\express\lib\router\index.js:271:13)
+    at C:\baogram\node_modules\express\lib\router\index.js:238:9
+    at Function.proto.process_params (C:\baogram\node_modules\express\lib\router\index.js:313:12)
+    at C:\baogram\node_modules\express\lib\router\index.js:229:12
+    at Function.match_layer (C:\baogram\node_modules\express\lib\router\index.js:296:3)
+    at next (C:\baogram\node_modules\express\lib\router\index.js:190:10)
+[Fri Sep 23 2016 02:57:01 GMT-0400 (东部夏令时)] /tags/test3
+Error: Failed to lookup view "tag" in views directory "C:\baogram\views"
+    at EventEmitter.app.render (C:\baogram\node_modules\express\lib\application.js:519:17)
+    at ServerResponse.res.render (C:\baogram\node_modules\express\lib\response.js:904:7)
+    at C:\baogram\routes\index.js:159:11
+    at C:\baogram\models\post.js:249:9
+    at C:\baogram\node_modules\mongodb\lib\mongodb\cursor.js:172:16
+    at commandHandler (C:\baogram\node_modules\mongodb\lib\mongodb\cursor.js:720:16)
+    at C:\baogram\node_modules\mongodb\lib\mongodb\db.js:1912:9
+    at Server.Base._callHandler (C:\baogram\node_modules\mongodb\lib\mongodb\connection\base.js:448:41)
+    at C:\baogram\node_modules\mongodb\lib\mongodb\connection\server.js:481:18
+    at MongoReply.parseBody (C:\baogram\node_modules\mongodb\lib\mongodb\responses\mongo_reply.js:68:5)
+[Fri Sep 23 2016 02:57:11 GMT-0400 (东部夏令时)] /null
+Error: Failed to lookup view "404" in views directory "C:\baogram\views"
+    at EventEmitter.app.render (C:\baogram\node_modules\express\lib\application.js:519:17)
+    at ServerResponse.res.render (C:\baogram\node_modules\express\lib\response.js:904:7)
+    at C:\baogram\routes\index.js:245:9
+    at Layer.handle [as handle_request] (C:\baogram\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (C:\baogram\node_modules\express\lib\router\index.js:271:13)
+    at C:\baogram\node_modules\express\lib\router\index.js:238:9
+    at Function.proto.process_params (C:\baogram\node_modules\express\lib\router\index.js:313:12)
+    at C:\baogram\node_modules\express\lib\router\index.js:229:12
+    at Function.match_layer (C:\baogram\node_modules\express\lib\router\index.js:296:3)
+    at next (C:\baogram\node_modules\express\lib\router\index.js:190:10)
+[Fri Sep 23 2016 02:57:40 GMT-0400 (东部夏令时)] /null
+Error: Failed to lookup view "404" in views directory "C:\baogram\views"
+    at EventEmitter.app.render (C:\baogram\node_modules\express\lib\application.js:519:17)
+    at ServerResponse.res.render (C:\baogram\node_modules\express\lib\response.js:904:7)
+    at C:\baogram\routes\index.js:245:9
+    at Layer.handle [as handle_request] (C:\baogram\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (C:\baogram\node_modules\express\lib\router\index.js:271:13)
+    at C:\baogram\node_modules\express\lib\router\index.js:238:9
+    at Function.proto.process_params (C:\baogram\node_modules\express\lib\router\index.js:313:12)
+    at C:\baogram\node_modules\express\lib\router\index.js:229:12
+    at Function.match_layer (C:\baogram\node_modules\express\lib\router\index.js:296:3)
+    at next (C:\baogram\node_modules\express\lib\router\index.js:190:10)
+[Fri Sep 23 2016 02:57:46 GMT-0400 (东部夏令时)] /null
+Error: Failed to lookup view "404" in views directory "C:\baogram\views"
+    at EventEmitter.app.render (C:\baogram\node_modules\express\lib\application.js:519:17)
+    at ServerResponse.res.render (C:\baogram\node_modules\express\lib\response.js:904:7)
+    at C:\baogram\routes\index.js:245:9
+    at Layer.handle [as handle_request] (C:\baogram\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (C:\baogram\node_modules\express\lib\router\index.js:271:13)
+    at C:\baogram\node_modules\express\lib\router\index.js:238:9
+    at Function.proto.process_params (C:\baogram\node_modules\express\lib\router\index.js:313:12)
+    at C:\baogram\node_modules\express\lib\router\index.js:229:12
+    at Function.match_layer (C:\baogram\node_modules\express\lib\router\index.js:296:3)
+    at next (C:\baogram\node_modules\express\lib\router\index.js:190:10)
+[Fri Sep 23 2016 02:57:50 GMT-0400 (东部夏令时)] /null
+Error: Failed to lookup view "404" in views directory "C:\baogram\views"
+    at EventEmitter.app.render (C:\baogram\node_modules\express\lib\application.js:519:17)
+    at ServerResponse.res.render (C:\baogram\node_modules\express\lib\response.js:904:7)
+    at C:\baogram\routes\index.js:245:9
+    at Layer.handle [as handle_request] (C:\baogram\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (C:\baogram\node_modules\express\lib\router\index.js:271:13)
+    at C:\baogram\node_modules\express\lib\router\index.js:238:9
+    at Function.proto.process_params (C:\baogram\node_modules\express\lib\router\index.js:313:12)
+    at C:\baogram\node_modules\express\lib\router\index.js:229:12
+    at Function.match_layer (C:\baogram\node_modules\express\lib\router\index.js:296:3)
+    at next (C:\baogram\node_modules\express\lib\router\index.js:190:10)
+[Fri Sep 23 2016 03:38:21 GMT-0400 (东部夏令时)] /
+ReferenceError: C:\baogram\views\index.ejs:11
+    9|         <div class="jumbotron">
+    10|           <div class="row">
+ >> 11|           <% images.forEach(function(image) { %>
+    12|             <div class="col-md-3">
+    13|               <div class="panel panel-default">
+    14|               <img class="center-block" src="uploads/<%= image.path %>" width=150 height=150 />
+
+images is not defined
+    at eval (eval at <anonymous> (C:\baogram\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:32:378)
+    at eval (eval at <anonymous> (C:\baogram\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:36:35)
+    at C:\baogram\node_modules\ejs\lib\ejs.js:255:15
+    at Object.exports.render (C:\baogram\node_modules\ejs\lib\ejs.js:293:13)
+    at View.exports.renderFile [as engine] (C:\baogram\node_modules\ejs\lib\ejs.js:323:20)
+    at View.render (C:\baogram\node_modules\express\lib\view.js:93:8)
+    at EventEmitter.app.render (C:\baogram\node_modules\express\lib\application.js:530:10)
+    at ServerResponse.res.render (C:\baogram\node_modules\express\lib\response.js:904:7)
+    at C:\baogram\routes\index.js:13:11
+    at C:\baogram\models\post.js:89:11
+[Fri Sep 23 2016 03:38:39 GMT-0400 (东部夏令时)] /upload
+Error: Failed to lookup view "404" in views directory "C:\baogram\views"
+    at EventEmitter.app.render (C:\baogram\node_modules\express\lib\application.js:519:17)
+    at ServerResponse.res.render (C:\baogram\node_modules\express\lib\response.js:904:7)
+    at C:\baogram\routes\index.js:245:9
+    at Layer.handle [as handle_request] (C:\baogram\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (C:\baogram\node_modules\express\lib\router\index.js:271:13)
+    at C:\baogram\node_modules\express\lib\router\index.js:238:9
+    at Function.proto.process_params (C:\baogram\node_modules\express\lib\router\index.js:313:12)
+    at C:\baogram\node_modules\express\lib\router\index.js:229:12
+    at Function.match_layer (C:\baogram\node_modules\express\lib\router\index.js:296:3)
+    at next (C:\baogram\node_modules\express\lib\router\index.js:190:10)
+[Fri Sep 23 2016 03:38:44 GMT-0400 (东部夏令时)] /bootstrap.min.js
+Error: Failed to lookup view "404" in views directory "C:\baogram\views"
+    at EventEmitter.app.render (C:\baogram\node_modules\express\lib\application.js:519:17)
+    at ServerResponse.res.render (C:\baogram\node_modules\express\lib\response.js:904:7)
+    at C:\baogram\routes\index.js:245:9
+    at Layer.handle [as handle_request] (C:\baogram\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (C:\baogram\node_modules\express\lib\router\index.js:271:13)
+    at C:\baogram\node_modules\express\lib\router\index.js:238:9
+    at Function.proto.process_params (C:\baogram\node_modules\express\lib\router\index.js:313:12)
+    at C:\baogram\node_modules\express\lib\router\index.js:229:12
+    at Function.match_layer (C:\baogram\node_modules\express\lib\router\index.js:296:3)
+    at next (C:\baogram\node_modules\express\lib\router\index.js:190:10)
+[Fri Sep 23 2016 03:39:06 GMT-0400 (东部夏令时)] /api/photo
+Error: Failed to lookup view "404" in views directory "C:\baogram\views"
+    at EventEmitter.app.render (C:\baogram\node_modules\express\lib\application.js:519:17)
+    at ServerResponse.res.render (C:\baogram\node_modules\express\lib\response.js:904:7)
+    at C:\baogram\routes\index.js:245:9
+    at Layer.handle [as handle_request] (C:\baogram\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (C:\baogram\node_modules\express\lib\router\index.js:271:13)
+    at C:\baogram\node_modules\express\lib\router\index.js:238:9
+    at Function.proto.process_params (C:\baogram\node_modules\express\lib\router\index.js:313:12)
+    at C:\baogram\node_modules\express\lib\router\index.js:229:12
+    at Function.match_layer (C:\baogram\node_modules\express\lib\router\index.js:296:3)
+    at next (C:\baogram\node_modules\express\lib\router\index.js:190:10)
+[Fri Sep 23 2016 05:00:41 GMT-0400 (东部夏令时)] /login
+Error: Error setting TTL index on collection : sessions
+    at C:\baogram\node_modules\connect-mongo\lib\connect-mongo.js:161:23
+    at C:\baogram\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\db.js:1404:28
+    at C:\baogram\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\db.js:1542:30
+    at C:\baogram\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\cursor.js:159:22
+    at commandHandler (C:\baogram\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\cursor.js:678:48)
+    at C:\baogram\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\db.js:1806:9
+    at __executeQueryCommand (C:\baogram\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\db.js:1636:44)
+    at Db._executeQueryCommand (C:\baogram\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\db.js:1805:7)
+    at Cursor.nextObject (C:\baogram\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\cursor.js:729:13)
+    at Cursor.toArray (C:\baogram\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\cursor.js:158:10)
+[Fri Sep 23 2016 05:04:59 GMT-0400 (东部夏令时)] /bootstrap.min.js
+Error: Failed to lookup view "404" in views directory "C:\baogram\views"
+    at EventEmitter.app.render (C:\baogram\node_modules\express\lib\application.js:519:17)
+    at ServerResponse.res.render (C:\baogram\node_modules\express\lib\response.js:904:7)
+    at C:\baogram\routes\index.js:285:9
+    at Layer.handle [as handle_request] (C:\baogram\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (C:\baogram\node_modules\express\lib\router\index.js:271:13)
+    at C:\baogram\node_modules\express\lib\router\index.js:238:9
+    at Function.proto.process_params (C:\baogram\node_modules\express\lib\router\index.js:313:12)
+    at C:\baogram\node_modules\express\lib\router\index.js:229:12
+    at Function.match_layer (C:\baogram\node_modules\express\lib\router\index.js:296:3)
+    at next (C:\baogram\node_modules\express\lib\router\index.js:190:10)
